@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.email       = "andrea.salicetti@gmail.com"
   s.files       = ["lib/paperclip-smusher.rb"]
   s.homepage    = "http://github.com/knightq/paperclip-smusher"
-  s.add_runtime_dependency "paperclip", ["~> 2.4"]
+  s.add_runtime_dependency "paperclip", ["~> 3.0"]
   s.requirements << "jpegtran for JPEG compression"
   s.requirements << "optipng for PNG compression"
 end
